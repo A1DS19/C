@@ -46,5 +46,4 @@ int main(int argc, char *argv[]) {
     printf("tea %d\n", tea);
 
   return EXIT_SUCCESS;
-
 }

@@ -8,5 +8,5 @@ typedef enum {
 } ThrustLevels;
 
 void spaceship() {
-    printf("")
+    printf("None %d\n", NONE);
 }
