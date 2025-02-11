@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
   int *ptr = NULL;
   printf("%p\n", &ptr);
 
-  if (ptr == NULL) {
+  if (ptr != NULL) {
     printf("%d\n", *ptr);
   }
 
