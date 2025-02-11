@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
   int *ptr = NULL;
-  printf("%p\n", &ptr);
+  printf("%p\n", ptr);
 
   if (ptr != NULL) {
     printf("%d\n", *ptr);
@@ -16,6 +16,11 @@ int main(int argc, char *argv[])
 
   char character = 'A';
   printf("%c\n", character);
+
+  char letter_b = 'B';
+  char *letter_ptr = &letter_b;
+  printf("%p\n", letter_ptr);
+  printf("%c\n", *letter_ptr);
 
   return EXIT_SUCCESS;
 }
