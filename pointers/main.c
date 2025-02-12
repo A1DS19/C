@@ -22,5 +22,12 @@ int main(int argc, char *argv[])
   printf("%p\n", letter_ptr);
   printf("%c\n", *letter_ptr);
 
+  // address is inmutable
+  char *const letter_mem_const = &letter_b;
+  // value pointed to can not be changed by pointer
+  const char *letter_val_const = &letter_b;
+  // value and address are inmutable
+  const char *const letter_mem_val_const = &letter_b;
+
   return EXIT_SUCCESS;
 }
