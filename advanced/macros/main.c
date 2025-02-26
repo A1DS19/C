@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 #define SUM(a, b) (((a) + (b)))
-#define PRINT_PARAMS(a, b) \
-  printf("%i\n", a);       \
+#define PRINT_PARAMS(a, b)                                                     \
+  printf("%i\n", a);                                                           \
   printf("%i\n", b);
 
 int main(int argc, char *argv[]) {
